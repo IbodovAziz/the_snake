@@ -87,8 +87,7 @@ class Snake(GameObject):
     def update_direction(self):
         """Обновить направление движения змейки."""
         if self.next_direction:
-            self.direction = self.next_direction
-            self.next_direction = None
+            self.direction, self.next_direction = self.next_direction, None
 
     def get_head_position(self) -> tuple:
         """Получить координаты головы змеи."""
