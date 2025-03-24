@@ -48,7 +48,7 @@ class GameObject:
 
     def draw(self):
         """Метод отрисовки объкта."""
-        pass
+
 
 
 class Apple(GameObject):
