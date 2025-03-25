@@ -50,7 +50,6 @@ class GameObject:
         """Метод отрисовки объкта."""
 
 
-
 class Apple(GameObject):
     """Класс яблоко."""
 
